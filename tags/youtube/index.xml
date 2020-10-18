@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>youtube on orta blog (any%)</title>
-    <link>http://orta-contrib.github.io/tags/youtube/</link>
+    <link>https://orta-contrib.github.io/tags/youtube/</link>
     <description>Recent content in youtube on orta blog (any%)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <copyright>orta-contrib</copyright>
     <lastBuildDate>Fri, 16 Oct 2020 11:58:21 +0900</lastBuildDate>
     
-	<atom:link href="http://orta-contrib.github.io/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://orta-contrib.github.io/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>YT: Vscode Foam</title>
-      <link>http://orta-contrib.github.io/posts/youtube/20201016-vscode-foam/</link>
+      <link>https://orta-contrib.github.io/posts/youtube/20201016-vscode-foam/</link>
       <pubDate>Fri, 16 Oct 2020 11:58:21 +0900</pubDate>
       
-      <guid>http://orta-contrib.github.io/posts/youtube/20201016-vscode-foam/</guid>
+      <guid>https://orta-contrib.github.io/posts/youtube/20201016-vscode-foam/</guid>
       <description>YouTube   foambubble/foam foambubble/foam: A personal knowledge management and sharing system for VSCode</description>
     </item>
     
