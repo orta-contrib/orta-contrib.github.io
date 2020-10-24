@@ -171,6 +171,18 @@ jobs:
 なんか`rss`とあんま変わらないですね...。
 ちょっとハマったのが、JSONを返すAPIでもArray形式で返してくれるAPIじゃないとエラーが出た点(`[{..},...]`はOKで、`{...}`というのはダメ)。`e.forEach is not function`というエラーだったので、`on.poll.outputs`あたりの指定の仕方次第なのかもしれない。GitHub Actionsあまり分かってない。
 
+**追記:**
+
+https://youtu.be/nZiP10uqdvE?t=2014
+
+見返してて、ここで `${{ toJSON(on.poll.outputs.raw__body) }}` を使っておけば、Array形式でないJSONも扱えるんじゃ無いかと思った。
+
+**再追記:**
+
+https://github.com/orta-contrib/actionsflow-workflow-sample/runs/1301386971?check_suite_focus=true#step:3:224
+
+そんなことなかった。
+
 ### Impression
 
 * 使い始めはテンプレートリポジトリからリポジトリを作成するだけなので本当に手軽。
@@ -181,6 +193,7 @@ jobs:
 * ワークフローの実行基盤を [act](https://github.com/nektos/act) に依存してるけど、actがどれだけGitHub Actionsとの互換性を維持できるのかというところが少し不安材料か
 * コミュニティベースのトリガがどれだけ増えるかというのも重要な点だと思うけど、実際多くの人に使われるのは同じワークフローな気もするので、誰にとっても便利なゴールデンパターンが見つかるかどうかが鍵な気がする
 
+* 吐息が入るの良くない。
 
 ## Contribution
 
