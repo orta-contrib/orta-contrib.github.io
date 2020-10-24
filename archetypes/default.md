@@ -1,8 +1,9 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-img: default.png
 draft: false
+toc: true
+tags: ["youtube"]
 ---
 
 

@@ -1,7 +1,6 @@
 ---
 title: "YT: Vscode Foam"
 date: 2020-10-16T11:58:21+09:00
-img: 20201016/yt.png
 draft: false
 toc: true
 tags: ["youtube", "vscode", "foam"]
