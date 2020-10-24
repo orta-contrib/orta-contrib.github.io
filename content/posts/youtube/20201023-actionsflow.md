@@ -68,7 +68,7 @@ Actionsflow もテンプレートリポジトリからリポジトリを作成�
 
 テンプレートリポジトリからリポジトリを作成すると、すでにGitHub Actions実行のためのファイルが置いてあるので、そのままActionsの実行が始まってしまいます。本当にリポジトリを作成するだけ。
 
-### Actions (GitHub Actions)
+#### Actions (GitHub Actions)
 
 **Actions(act) on Actions(GitHub Actions)** の **Actions(GitHub Actions)** の方は、下記のような定義。
 
